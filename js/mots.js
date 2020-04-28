@@ -113,7 +113,7 @@ function clavier(evenement)
 				fin == true; // mot est devoile j'ai reussi, pas fin parti mais else;;; 
 			}
 			else{
-				window.setTimeout(function attendre() { suivant(); }, 1000); //generer une autre nombre aleotoire attendre 1000 secondes et afficher le mot suivant;;;		
+				window.setTimeout(function attendre() { suivant(); }, 1000); //generer une autre nombre aleotoire attendre 1000 milisecondes et afficher le mot suivant;;;		
 			}
 		
 		}
